@@ -10,7 +10,11 @@ module.exports = {
 
   production: {
     client: 'pg',
-    connection: process.env.DATABASE_url
+    connection: process.env.DATABASE_URL
   }
 
 };
+
+
+//Just need dev and productiuon for now, get rid of other shit
+//client is pg for now, peep connection

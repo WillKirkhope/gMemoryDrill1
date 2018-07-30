@@ -11,3 +11,5 @@ exports.seed = function(knex, Promise) {
       return knex.raw("ALTER SEQUENCE resolution_id_seq RESTART WITH 4;");
   });
 };
+
+//.then alter shit was required to restart with 4

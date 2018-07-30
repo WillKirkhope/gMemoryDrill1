@@ -25,3 +25,9 @@ module.exports = {
         .where('id', id)
     }
 };
+
+
+
+//knex queries to pull data from tables
+//the querie part of routes
+//do this....  .then do this on routes
