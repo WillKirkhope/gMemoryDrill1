@@ -1,2 +1,2 @@
 ##Deployed Link##
-- ('https://gmemoryy1.herokuapp.com/')
+- ('https://gmemoryy1.herokuapp.com/resolutions/')
