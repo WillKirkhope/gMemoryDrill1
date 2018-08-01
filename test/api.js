@@ -63,7 +63,7 @@ describe("API requests", () => {
                 .expect(204)
                 .then(response => {
                     return request(app)
-                        .get("/resolutions/2")
+                        .get("/resolution/2")
                         .expect(404);
                 }).then(() => done()).catch(done);
         });
